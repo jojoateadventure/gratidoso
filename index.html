@@ -63,7 +63,7 @@ select{ padding:8px; font-size:16px; }
 <div id="puzzle"></div>
 
 <div id="message">
-🎉 <strong>Esse é o HUMILDOSO!</strong><br>
+🎉 <strong>Esse é o GRATIDOSO!</strong><br>
 Aprender também pode ser divertido 🎶
 </div>
 
@@ -120,7 +120,7 @@ function render(){
     const x = imgIndex % cols;
     const y = Math.floor(imgIndex / cols);
 
-    div.style.backgroundImage = "url('Hmildoso.png')";
+    div.style.backgroundImage = "url('Gratidoso.png')";
     div.style.backgroundSize = `${size}px ${size}px`;
     div.style.backgroundPosition = `-${x*pieceSize}px -${y*pieceSize}px`;
     div.classList.toggle("active", index === selectedIndex);
@@ -151,3 +151,4 @@ setup(48);
 
 </body>
 </html>
+
